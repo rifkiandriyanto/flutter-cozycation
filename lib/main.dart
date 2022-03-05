@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cozycation/screens/home_screen.dart';
+import 'package:cozycation/screens/main_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:cozycation/services/space_service.dart';
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       create: (context) => SpaceService(),
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: HomeScreen(),
+        home: MainScreen(),
       ),
     );
   }

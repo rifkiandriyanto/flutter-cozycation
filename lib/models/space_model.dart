@@ -1,4 +1,4 @@
-class Space {
+class SpaceModel {
   int? id;
   String? name;
   String? city;
@@ -14,7 +14,7 @@ class Space {
   int? numberOfBedrooms;
   int? numberOfCupboards;
 
-  Space(
+  SpaceModel(
       {this.id,
       this.name,
       this.city,
@@ -30,7 +30,7 @@ class Space {
       this.numberOfBedrooms,
       this.numberOfCupboards});
 
-  Space.fromJson(json) {
+  SpaceModel.fromJson(json) {
     id = json['id'];
     name = json['name'];
     city = json['city'];

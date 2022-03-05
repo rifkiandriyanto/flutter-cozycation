@@ -10,10 +10,11 @@ class SpaceService extends ChangeNotifier {
 
     if (result.statusCode == 200) {
       List data = jsonDecode(result.body);
-      List<Space> spaces = data.map((e) => Space.fromJson(e)).toList();
+      List<SpaceModel> spaces =
+          data.map((e) => SpaceModel.fromJson(e)).toList();
       return spaces;
     } else {
-      return <Space>[];
+      return <SpaceModel>[];
     }
   }
 }
