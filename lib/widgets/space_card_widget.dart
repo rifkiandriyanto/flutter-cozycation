@@ -11,8 +11,12 @@ class SpaceCardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.push(context,
-            MaterialPageRoute(builder: (context) => const DetailScreen()));
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => DetailScreen(space),
+          ),
+        );
       },
       child: Container(
         margin: const EdgeInsets.only(bottom: 30),
