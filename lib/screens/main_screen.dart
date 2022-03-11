@@ -33,7 +33,7 @@ class MainScreen extends StatelessWidget {
                       height: 10,
                     ),
                     Text(
-                      'Stop membuang banyak waktu\npada tempat yang tidak habitable',
+                      "Looking for an apartment?\nLet's find your dream apartment",
                       style: light.copyWith(fontSize: 16),
                     ),
                     const SizedBox(

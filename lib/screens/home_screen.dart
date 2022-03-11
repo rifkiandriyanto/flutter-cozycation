@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Text(
-                'Mencari kosan yang cozy',
+                'Looking for the ideal apartment',
                 style: light.copyWith(
                   fontSize: 16,
                 ),
