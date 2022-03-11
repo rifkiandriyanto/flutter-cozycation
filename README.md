@@ -1,6 +1,6 @@
 # Cozycation
 
-Cozystation - Apartment finder app.
+Cozycation - Apartment finder app.
 
 Using providers for state management
 
