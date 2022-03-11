@@ -6,7 +6,9 @@ Using providers for state management
 
 Demo
 
-![](assets/shot/shot.gif)
+
+<img src="assets/shot/shot.gif" width="200"/>
+
 
 ## Dependencies
 
